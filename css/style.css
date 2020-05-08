@@ -1,0 +1,168 @@
+
+/* context menu */
+
+.context-menu {
+  display: none;
+  position: absolute;
+  z-index: 10;
+  padding: 0;
+  width: 120px;
+  background-color: #fff;
+  border: solid 1px #dfdfdf;
+  box-shadow: 1px 1px 2px #cfcfcf;
+}
+
+.context-menu--active {
+  display: block;
+}
+
+.context-menu__items {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.context-menu__item {
+  display: block;
+}
+
+.context-menu__item:last-child {
+  margin-bottom: 0;
+}
+
+.context-menu__link {
+  display: block;
+  padding: 4px 12px;
+  color: #0066aa;
+  text-decoration: none;
+}
+
+.context-menu__link:hover {
+  color: #fff;
+  background-color: #0066aa;
+}
+
+.fluid{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.bg-success,.klasor,.desteklenmeyen{
+  position: relative;
+  height: 110px;
+  overflow: hidden;
+}
+
+/*.sil,*/.kopyala{
+  position: absolute;
+  top:0;
+  right: 0;
+}
+
+.klasor .baslik,.desteklenmeyen a h5{
+  background-color: #e9ecef;
+  font-size: 15px;
+  position: absolute;
+  color: #6c757d;
+  border: 1px solid #6c757d;
+  box-shadow: 0px -3px 2px #6c757d;
+  bottom: 30%;
+  width: 100%;
+  text-align: center;
+}
+
+.bg-success a:hover{
+  cursor:pointer;
+}
+
+.bg-success a h5{
+  background-color: #e9ecef;
+  font-size: 15px;
+  position: absolute;
+  color: #6c757d;
+  bottom: -8px;
+  width: 100%;
+  text-align: center;
+}
+
+#dosya,#folder{
+  border: none;
+  background-color: transparent;
+}
+
+#filerenamelabel{
+  display: block;
+  height: 30px;
+  max-width: 200px;
+}
+
+::-moz-selection {
+color: #fff;
+background: #da4b4b;
+}
+::selection {
+color: #fff; 
+background: #da4b4b;
+}
+
+.filerenameview{
+  max-width: 80%;
+}
+
+#filerenamelabel input{
+  border:none;
+  background-color: transparent;
+}
+
+#filerenametext{
+  display: none;
+}
+
+#desteklenmeyen{
+  display: none;
+}
+
+#myInput{
+  height: 4rem;
+}
+
+#myImg{
+  height: 200px;
+}
+
+html,body{
+  background-color: white;
+  height:100%;
+}
+
+h3{
+  font-size: 20px;
+}
+
+.icerik{
+  margin-bottom: 35px;
+  margin-top: 5px;
+}
+
+.breadcrumb{
+  background-color:#e9ecef;
+}
+
+.height{
+  height: 50px;
+}
+
+#file  {
+ top:0;
+ position:absolute;
+ display: none;
+ z-index:99;
+ background-color: white;
+ width: 100%;
+ height:100%;
+}
+
+#error .fa-exclamation-circle  {
+ font-size:25px;
+}
