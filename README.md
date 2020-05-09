@@ -16,16 +16,6 @@ Web geliştiricileri için ortam yöneticisi yada dosya yöneticisi çok önemli
 
 >Durum Çubuğu Mevcut(Bulunduğunuz Dizinde Kaç Klasör Kaç Dosya Disk Alanında Ne Kadar Yer Kaplıyor Görebilirsiniz.)
 
-# Ckeditor için;
-<textarea name="sayfacontent" id="sayfacontent" rows="10"></textarea>
-<script src="ckeditor/ckeditor.js"></script>
-<script>
-  CKEDITOR.replace( 'sayfacontent' ,{
-  filebrowserBrowseUrl : 'FileManager/index.php?file=&ckeditor=show',
-  filebrowserImageBrowseUrl : 'FileManager/index.php?file=&ckeditor=show'
-  });
-</script>
-
 # Yardımcı Linkler
 
 >FileManager(İlk Sürüm)
