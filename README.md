@@ -4,10 +4,15 @@ Web geliştiricileri için ortam yöneticisi yada dosya yöneticisi çok önemli
 
 # Özellikleri
 >Responsive Yapıya Sahip
+
 >Ckeditor Desteği Mevcut
+
 >Desteklediği Uzantılar:GIF,JPEG,JPG,PNG,SVG,ICO,ICON,WEBP
+
 >Klasör Oluşturabilir, Adını Değiştirebilir yahut Silebilirsiniz.
+
 >Resim veya Fotoğraflar Yükleyebilir, Adını Değiştirebilir yahut Silebilirsiniz.
+
 >Durum Çubuğu Mevcut(Bulunduğunuz Dizinde Kaç Klasör Kaç Dosya Disk Alanında Ne Kadar Yer Kaplıyor Görebilirsiniz.)
 
 # Yardımcı Linkler
