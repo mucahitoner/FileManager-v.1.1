@@ -3,6 +3,7 @@
 Web geliştiricileri için ortam yöneticisi yada dosya yöneticisi çok önemlidir. Nedeni ise kullanıcı odaklı bir site yaparken dosyaları yönetme ve kullanım kolaylığı sağlar. Bu üründe bu noktada web geliştiricilerine yardımcı olması hedefleniyor.
 
 # Özellikleri
+
 >Responsive Yapıya Sahip
 
 >Ckeditor Desteği Mevcut
@@ -14,6 +15,16 @@ Web geliştiricileri için ortam yöneticisi yada dosya yöneticisi çok önemli
 >Resim veya Fotoğraflar Yükleyebilir, Adını Değiştirebilir yahut Silebilirsiniz.
 
 >Durum Çubuğu Mevcut(Bulunduğunuz Dizinde Kaç Klasör Kaç Dosya Disk Alanında Ne Kadar Yer Kaplıyor Görebilirsiniz.)
+
+# Ckeditor için;
+<textarea name="sayfacontent" id="sayfacontent" rows="10"></textarea>
+<script src="ckeditor/ckeditor.js"></script>
+<script>
+  CKEDITOR.replace( 'sayfacontent' ,{
+  filebrowserBrowseUrl : 'FileManager/index.php?file=&ckeditor=show',
+  filebrowserImageBrowseUrl : 'FileManager/index.php?file=&ckeditor=show'
+  });
+</script>
 
 # Yardımcı Linkler
 
