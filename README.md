@@ -21,9 +21,6 @@ Web geliştiricileri için ortam yöneticisi yada dosya yöneticisi çok önemli
 >FileManager(İlk Sürüm)
 https://github.com/mucahitoner/FileManager
 
->Demo
-https://muhendistayfa.com/filemanager-v.1.1/
-
 >FileManager Tanıtım
 https://youtu.be/1xqtEPDIP6g
 
